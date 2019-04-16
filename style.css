@@ -1,0 +1,406 @@
+* 
+  {box-sizing:border-box;}
+
+
+body {
+
+  font-family: Lato;
+}
+
+.jumbotron {
+  color: white;
+  background-image:url(images/jumbotron.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  height: 100%;
+  position: relative;
+ 
+  
+}
+
+.arrow{
+
+  background-image: url(images/down-arroy@2x.png), linear-gradient(90deg, rgba(43,72,45,1) 0%, rgba(85,138,44,1) 94%);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  left: 47%;
+  bottom: 5%;
+
+  
+}
+
+.icon-box {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  margin-top: 0px;
+  margin-bottom: 30px;
+
+  
+  
+  background: linear-gradient(90deg, rgba(43,72,45,1) 0%, rgba(85,138,44,1) 94%);
+  justify-content: center;
+  vertical-align: middle;
+
+}
+
+.no-gutters {
+
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+  
+}
+
+.textbox {
+  color: black;
+ 
+
+
+}
+
+.icon-box img  {
+  position:absolute;
+  top:0;
+  bottom:0;
+  left: 0;
+  right: 0;
+  margin:auto;
+
+}
+
+hr.line {
+
+  border: 0;
+  height: 5px;
+  background:linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  border-radius: 5px;
+  
+}
+
+.col-md-4.textbox {
+
+  max-width: 33%;
+
+}
+
+.subtext {
+  font-size: 18px;
+  color: #3c3c3c;
+}
+
+a.arrow:hover {
+  
+  background-image: url(images/down-arroy@2x.png);
+  background-color: rgb(93, 172, 39);
+}
+
+.btn-success {
+
+  color: #fff;
+  background: rgb(43,72,45);
+  background: linear-gradient(90deg, rgba(43,72,45,1) 0%, rgba(85,138,44,1) 94%);
+  border-color: white;
+
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+
+  color: white;
+  font-size: 1.2em;
+
+}
+
+
+.navbar-expand-lg {
+  padding: 0%;
+}
+
+.nav-link a {
+  color: white;
+}
+
+
+
+
+#navbar-padding .nav-item {
+  display: inline-block;
+  float: none;
+  padding-left: 25px;
+  padding-right: 25px;
+  /* bottom: 20px; */
+  position: relative;
+
+}
+
+
+
+#logo-offset {
+  /* margin-top: 20px; */
+  position: relative;
+  
+}
+
+
+#contentbar {
+
+  background:linear-gradient(90deg, #9ebd13 0%, #008552 100%);
+  
+  height: 30px;
+
+  
+}
+
+#mission{
+
+  background: rgb(0, 37, 37);
+  
+}
+
+#bodyBackgroundImage{
+
+
+  background-image: url(images/thirstydog.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 400px;
+
+
+}
+
+#ribbon {
+
+  background-image: url(images/ribbon-cutting.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 200px;
+
+}
+
+.thumbnailTitles {
+  color: white;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+
+
+
+
+}
+
+.thumbnailTitles h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+  transition: font-size 0.4s;
+  
+}
+
+.donateThumb{
+
+  
+  background-image: linear-gradient(94deg, rgba(8,107,23,0.7) 30%, rgba(8,107,23,0.7) 70%), url(images/donate.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 240px;
+
+ 
+}
+
+
+
+.donateThumb:hover {
+
+  
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.4) 70%), url(images/donate.jpg);
+  font-size: 1.3em;
+
+
+ 
+}
+
+
+
+.volunteerThumb{
+
+  background-image: linear-gradient(90deg, rgba(5,57,13,0.8) 30%, rgba(5,57,13,0.8) 70%), url(images/volunteer.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 240px;
+  
+}
+
+
+.volunteerThumb:hover {
+
+  background-image:  linear-gradient(90deg, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.4) 70%), url(images/volunteer.jpg);
+  font-size: 1.3em;
+ 
+}
+
+
+.reportThumb{
+
+  background-image: linear-gradient(94deg, rgba(8,107,23,0.7) 30%, rgba(8,107,23,0.7) 70%), url(images/report.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 240px;
+  
+}
+
+.reportThumb:hover {
+
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.4) 70%), url(images/report.jpg);
+  font-size: 1.3em;
+ 
+
+}
+
+.adoptThumb{
+
+  background-image: linear-gradient(90deg, rgba(5,57,13,0.8) 30%, rgba(5,57,13,0.8) 70%), url(images/adopt.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 300px;
+  height: 240px;
+  
+}
+
+.adoptThumb:hover {
+
+  background-image: linear-gradient(90deg, rgba(0,0,0,0.4) 30%, rgba(0,0,0,0.4) 70%), url(images/adopt.jpg);
+  font-size: 1.3em;
+ 
+}
+
+
+#whatWeDo {
+
+  
+}
+
+#adoptions {
+
+  background: yellow;
+  height: 600px;
+  
+}
+
+#donate {
+
+  background: rgb(0, 37, 37);
+  height: 600px;
+  margin-top: -140px; 
+  
+}
+
+#join {
+
+  background: green;
+  height: 600px;
+  
+}
+
+#contactus {
+
+  background: grey;
+  height: 600px;
+  
+}
+
+footer {
+  height: 200px;
+  background: purple;
+}
+
+html, body{
+  height: 100%;
+}
+
+
+
+
+.rotation {
+  -ms-transform: rotate(30deg); /* IE 9 */
+  -webkit-transform: rotate(30deg); /* Safari 3-8 */
+  transform: rotate(30deg);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 5em;
+}
+
+.maintitles {
+  text-align: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.content {
+
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 0;
+  margin: 5% 5%; 
+  margin-bottom: 100px;
+  color: white;
+  line-height: 2;
+  
+}
+
+.content h3{
+  color: black;
+}
+
+
+.navbar.scrolled {
+
+  background: linear-gradient(94deg, rgba(1,28,17,0.9) 30%, rgba(90,106,14,0.7960317916228992) 50%, rgba(1,28,17,0.8) 70%);
+  transition: background 500ms;
+  /* padding-top: 20px;  */
+  
+ 
+}
+
+.navbar.imagesize img {
+  width: 80px;
+  transition: width 500ms;
+}
+
+/* 
+
+You can mask parts of a gradient by puthing two gradients on top of each other. One that goes vertical(first), and one
+goes from left to right second.
+ background:linear-gradient(180deg, rgba(141,183,26,0) 0%, rgba(1,27,27,1) 69%, rgba(1,27,27,1) 89%), 
+        linear-gradient(90deg, #9ebd13 0%, #008552 100%)
+
+*/
+
